@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Fix `undefined method 'bootstrap_svg'` crash on the error page when an error has no occurrences
+
 ## [0.7.0] - 2025-06-11
 
 - support ruby 3.4.0 style backtrace string ([@kuboon](https://github.com/fractaledmind/solid_errors/pull/74))
